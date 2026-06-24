@@ -203,7 +203,7 @@ a {
   padding: 80px 0;
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  height: 650px;
   background-image: url("../assets/images/home-hero-mobile.jpg");
   background-size: cover;
   background-position: center;
@@ -523,7 +523,7 @@ a {
     display: block;
     position: absolute;
     left: 0;
-    top: 425px;
+    top: 355px;
     width: 200px;
   }
   .hero .circles {
