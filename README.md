@@ -15,27 +15,27 @@
 
    ## Pages
 
-   ## 📸 Скріншоти проекту (Сторінки)
+   ## 📸 Project Screenshots (Pages)
 
 <table width="100%">
   <tr>
     <td width="50%" align="center">
       <b>🏠 Home </b> <br />
-          <img src="assets/index.html.png" alt="Головна" width="100%"/>
+          <img src="assets/index.html.png" alt="home" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <b>ℹ️ Про нас</b> <br />
-      <img src="ПОСИЛАННЯ_НА_СКРІНШОТ_2" alt="Про нас" width="100%"/>
+      <b>ℹ️ About</b> <br />
+      <img src="assets/about.html.png" alt="about" width="100%"/>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <b>🛍️ Каталог / Послуги</b> <br />
-      <img src="ПОСИЛАННЯ_НА_СКРІНШОТ_3" alt="Каталог" width="100%"/>
+      <b>🛍️ Careers</b> <br />
+      <img src="assets/careeers.html.png" alt="careers" width="100%"/>
     </td>
     <td width="50%" align="center">
-      <b>📞 Контакти</b> <br />
-      <img src="ПОСИЛАННЯ_НА_СКРІНШОТ_4" alt="Контакти" width="100%"/>
+      <b>🔍 Locations</b> <br />
+      <img src="assets/locations.html.png" alt="locations" width="100%"/>
     </td>
   </tr>
 </table>
