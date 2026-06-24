@@ -1,4 +1,4 @@
-                                          # Scoot Multi-Page Website
+ #                                         Scoot Multi-Page Website
 
    ## Overview
    Scoot is a responsive multi-page website built from a Figma design challenge.
@@ -14,6 +14,23 @@
    https://github.com/Tetiana1990/Scoot-multi-page-website.git
 
    ## Pages
+
+   - Home
+   - About
+   - Careers
+   - Locations
+
+
+  ## Features
+
+  - Responsive design for mobile, tablet, and desktop devices
+  - Mobile navigation menu
+  - Interactive FAQ accordion
+  - Multi-page navigation
+  - Reusable SCSS components
+  - Semantic HTML structure
+  - Optimized images and assets
+  - Hover and focus states for interactive elements
 
    ## 📸 Project Screenshots (Pages)
 
@@ -31,7 +48,7 @@
   <tr>
     <td width="50%" align="center">
       <b>🛍️ Careers</b> <br />
-      <img src="assets/careeers.html.png" alt="careers" width="100%"/>
+      <img src="assets/careers.html.png" alt="careers" width="100%"/>
     </td>
     <td width="50%" align="center">
       <b>🔍 Locations</b> <br />
@@ -39,6 +56,27 @@
     </td>
   </tr>
 </table>
+
+## Built With
+   - HTML5
+   - SCSS (Sass)
+   - JavaScript (ES6)
+   - Flexbox
+   - CSS Grid
+   - Git
+   - GitHub
+
+## What I Learned
+During this project, I strengthened my understanding of responsive
+web development by building a fully adaptive multi-page website using 
+a mobile-first approach.
+I gained practical experience in organizing styles with SCSS partials, 
+creating reusable components, and maintaining a consistent design across
+multiple pages.
+I also improved my JavaScript skills by implementing interactive features
+such as the mobile navigation menu and FAQ accordion while ensuring a smooth
+user experience across different screen sizes.
+
 
 
    
