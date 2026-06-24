@@ -7,10 +7,10 @@
    and interactive JavaScript components.
 
    ## Live Demo
-   --Live Site URL:
+   **Live Site URL:**
     https://tetiana1990.github.io/Scoot-multi-page-website/
 
-   --GitHub Repository:
+   **GitHub Repository:**
    https://github.com/Tetiana1990/Scoot-multi-page-website.git
 
    ## Pages
