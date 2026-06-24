@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Lexend Deca", sans-serif;
+	background: #fff;
+	overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+button,
+nav a {
+	font-family: "Space Mono", monospace;
+}
+.container {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+a {
+	text-decoration: none;
+}
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 180px;
+	height: 53px;
+	background: #fcb72b;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1.7px;
+	font-size: 15px;
+	font-weight: 700;
+	border: 3px solid transparent;
+	transition: 0.3s ease;
+}
+
+.btn:hover {
+	background: transparent;
+	border-color: #fcb72b;
+	color: #fcb72b;
+}
+
+.btn:focus {
+	outline: 2px dashed #fcb72b;
+}

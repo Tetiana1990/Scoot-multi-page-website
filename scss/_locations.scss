@@ -1,0 +1,182 @@
+/*----------------------------hero---------------------------------*/
+.page-hero--locations {
+	background-image: url("../assets/images/careers-location-hero-mobile.jpg");
+}
+
+/*----------------------------Locations Map Section-------------------*/
+.locations {
+	padding: 80px 0;
+
+	&__container {
+		position: relative;
+		text-align: center;
+	}
+	&__map {
+		width: 100%;
+		height: 200px;
+
+		background-image: url("../assets/images/world-map-mobile.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+	&__pin {
+		display: block;
+		margin: 16px auto;
+		padding: 16px 24px;
+		background: rgb(250, 229, 204);
+		font-weight: 700;
+		border-radius: 4px;
+	}
+}
+/*---------------------------------City-------------------------------*/
+.city {
+	padding: 0 0 80px;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 40px;
+
+		h2 {
+			max-width: 350px;
+			font-size: 36px;
+			line-height: 1;
+			color: $dark;
+			text-transform: capitalize;
+		}
+		p {
+			color: $grey;
+			line-height: 1.6;
+		}
+	}
+}
+/*----------------------------------------tablet------------------------------*/
+@media (min-width: 769px) {
+	/*-------------------------------Locations Map Section-------------*/
+	.locations {
+		&__map {
+			height: 400px;
+			background-image: url("../assets/images/world-map-tablet.png");
+			background-size: contain;
+			position: relative;
+		}
+		&__container {
+			position: relative;
+		}
+		&__pin {
+			position: absolute;
+			background: $yellow;
+			color: $dark;
+			width: 129px;
+			height: 32px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: 700;
+			font-size: 14px;
+
+			&::after {
+				content: "";
+				position: absolute;
+				left: 50%;
+				bottom: -12px;
+				transform: translateX(-50%);
+				width: 0;
+				height: 0;
+				border-left: 12px solid transparent;
+				border-right: 12px solid transparent;
+				border-top: 12px solid $yellow;
+			}
+		}
+		.london {
+			top: 4%;
+			left: 38%;
+		}
+		.newyork {
+			top: 11%;
+			left: 21%;
+		}
+		.jakarta {
+			top: 47%;
+			left: 68%;
+		}
+		.yokohama {
+			top: 16%;
+			right: 14%;
+		}
+	}
+	/*-------------------------------------------City--------------------------------*/
+	.city {
+		padding: 0 0 72px;
+
+		h2 {
+			font-size: 45px;
+			line-height: 1.2;
+		}
+		p {
+			max-width: 600px;
+			margin: 0 auto 40px;
+			line-height: 1.8;
+		}
+	}
+}
+/*----------------------------------------Desktop------------------------------*/
+@media (min-width: 1025px) {
+	.locations {
+		padding: 120px 0;
+
+		&__map {
+			position: relative;
+			width: 100%;
+			height: 543px;
+			background-image: url("../assets/images/world-map-desktop.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+		.london {
+			top: 6%;
+			left: 38%;
+		}
+		.newyork {
+			top: 12%;
+			left: 19%;
+		}
+		.jakarta {
+			top: 46%;
+			left: 71%;
+		}
+		.yokohama {
+			top: 17%;
+			right: 10%;
+		}
+		&__pin {
+			height: 55px;
+			font-size: 18px;
+		}
+	}
+	/*-------------------------------------------City--------------------------------*/
+	.city {
+		&__container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			gap: 30px;
+			text-align: left;
+
+			h2 {
+				text-transform: none;
+				max-width: 320px;
+			}
+			p {
+				max-width: 445px;
+				margin: 0;
+				line-height: 1.6;
+			}
+		}
+	}
+}

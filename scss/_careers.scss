@@ -1,0 +1,172 @@
+/*------------------------------hero----------------------*/
+.page-hero--careers {
+	background-image: url("../assets/images/careers-location-hero-mobile.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 72px 0;
+	position: relative;
+
+	h1 {
+		color: $white;
+		font-size: 56px;
+	}
+	.page-hero-circle {
+		display: none;
+	}
+}
+/*---------------------------info-------------------------*/
+
+.careers--1 {
+	&::after {
+		content: "";
+		position: absolute;
+		width: 740px;
+		height: 150px;
+		background: url("../assets/patterns/left-downward-arrow.svg") no-repeat center / contain;
+		right: -180px;
+		top: 330px;
+		z-index: 2;
+	}
+}
+/*----------------------------jobs-------------------------*/
+.jobs {
+	padding: 70px 20px;
+
+	.job-card {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		align-items: center;
+		text-align: center;
+		padding: 32px 40px;
+		margin-bottom: 24px;
+		background: #f2f5f9;
+
+		&__content {
+			display: flex;
+			flex-direction: column;
+			gap: 7px;
+			text-align: center;
+
+			h3 {
+				color: $dark;
+			}
+			p {
+				color: $dark;
+			}
+		}
+	}
+	.job-card .btn {
+		width: 100%;
+	}
+}
+
+/*-----------------------------------------------tablet-------------------------------------*/
+
+/*----------------------------hero-------------------------*/
+@media (min-width: 769px) {
+	.page-hero--careers {
+		background: url("../assets/images/careers-locations-hero-tablet.jpg") center/cover no-repeat;
+		text-align: center;
+		position: relative;
+
+		h1 {
+			font-size: 48px;
+		}
+		.page-hero-circle {
+			display: block;
+			position: absolute;
+			right: -30px;
+			bottom: 70px;
+			z-index: 2;
+		}
+	}
+	/*---------------------------info-------------------------*/
+	.careers--1 {
+		&::after {
+			content: "";
+			position: absolute;
+			width: 740px;
+			height: 150px;
+			background: url("../assets/patterns/left-downward-arrow.svg") no-repeat center / contain;
+			right: 0px;
+			top: 380px;
+			z-index: 2;
+		}
+	}
+	/*---------------------------job-------------------------*/
+	.jobs {
+		.job-card {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			text-align: left;
+
+			&__content {
+				text-align: left;
+				align-items: flex-start;
+			}
+			h3 {
+				font-size: 28px;
+				color: $dark;
+			}
+			p {
+				font-size: 16px;
+			}
+
+			.btn {
+				width: 180px;
+			}
+		}
+	}
+}
+/*-----------------------------------------------desktop------------------------------------*/
+
+/*-----------------------------hero---------------------------*/
+
+@media (min-width: 1025px) {
+	.page-hero--careers {
+		background-image: url("../assets/images/careers-locations-hero-desktop.jpg");
+		position: relative;
+		h1 {
+			font-size: 56px;
+		}
+
+		.page-hero-circle {
+			display: block;
+			position: absolute;
+			right: -30px;
+			bottom: 70px;
+			z-index: 2;
+		}
+	}
+	/*--------------------------jobs---------------------------*/
+	.jobs {
+		.job-card {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			padding: 32px 64px;
+			text-align: left;
+
+			&__content {
+				text-align: left;
+				align-items: flex-start;
+
+				h3 {
+					font-size: 28px;
+					color: $dark;
+				}
+				p {
+					font-size: 16px;
+				}
+			}
+			.btn {
+				width: 180px;
+			}
+		}
+	}
+}
