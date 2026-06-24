@@ -21,8 +21,7 @@
   <tr>
     <td width="50%" align="center">
       <b>🏠 Home </b> <br />
-      <img src="<img width="2976" height="7748" alt="127 0 0 1_5500_index html" src="https://github.com/user-attachments/assets/5e3e8730-7de1-4399-855d-1526e475e2a0" />
-" alt="Home" width="100%"/>
+          <img src="assets/index.html.png" alt="Головна" width="100%"/>
     </td>
     <td width="50%" align="center">
       <b>ℹ️ Про нас</b> <br />
