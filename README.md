@@ -70,12 +70,21 @@
 During this project, I strengthened my understanding of responsive
 web development by building a fully adaptive multi-page website using 
 a mobile-first approach.
+
 I gained practical experience in organizing styles with SCSS partials, 
 creating reusable components, and maintaining a consistent design across
 multiple pages.
+
 I also improved my JavaScript skills by implementing interactive features
 such as the mobile navigation menu and FAQ accordion while ensuring a smooth
 user experience across different screen sizes.
+
+## Challenges & Solutions
+One of the main challenges was maintaining a consistent layout across multiple pages while keeping the codebase organized and reusable.
+
+To solve this, I structured the styles using SCSS partials and reusable components, making the project easier to maintain and scale.
+
+Another challenge was implementing responsive layouts that matched the design across mobile, tablet, and desktop breakpoints. This was achieved using a mobile-first workflow combined with Flexbox and CSS Grid.
 
 
 
